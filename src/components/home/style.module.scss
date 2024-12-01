@@ -1,0 +1,38 @@
+.header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--secondary);
+  border-bottom: solid var(--border) 1px;
+  .title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0px;
+  }
+  .description {
+    font-size: 0.9rem;
+    font-weight: 500;
+    opacity: 0.5;
+    margin: 0px;
+  }
+  .search {
+    display: flex;
+    align-items: center;
+    input {
+      width: 400px;
+      padding: 10px;
+      border-radius: 5px;
+      border: solid var(--border) 1px;
+      margin-right: 10px;
+      outline: none;
+    }
+    button {
+      padding: 10px;
+      border-radius: 5px;
+      border: solid var(--border) 1px;
+      background-color: var(--primary);
+      color: var(--secondary);
+      font-weight: 600;
+    }
+  }
+}
